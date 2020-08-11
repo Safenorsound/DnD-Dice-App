@@ -1,5 +1,9 @@
+h1 {
+  text-align: center;
+}
+
 img {
-  height: 2vh;
+  height: auto;
   width: 10%;
 }
 
