@@ -3,11 +3,17 @@ h1 {
   text-align: center;
   color: red;
   -webkit-text-stroke: 0.1rem black;
+  background-color: yellow;
 }
 
 img {
   width: 10%;
   margin-left: 0.5rem;
+  vertical-align: super;
+}
+
+button.btn-roll {
+  vertical-align: baseline;
 }
 
 /* section.dice-container {
@@ -18,7 +24,6 @@ body {
   background-image: url('images/Background.jpg');
 }
 
-/* div.d {
-  display: flex;
-  flex-wrap: wrap;
-} */
+div.d {
+  align-items: center;
+}
