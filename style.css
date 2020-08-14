@@ -1,24 +1,24 @@
 h1 {
   font-size: 4rem;
   text-align: center;
-  color: white;
+  color: red;
+  -webkit-text-stroke: 0.1rem black;
 }
 
 img {
-  /* height: ; */
   width: 10%;
   margin-left: 0.5rem;
 }
 
-section.dice-container {
-  display: grid;
-  justify-content: space-evenly;
-}
+/* section.dice-container {
+  display: flex;
+} */
 
 body {
   background-image: url('images/Background.jpg');
 }
 
-div.d {
+/* div.d {
   display: flex;
-}
+  flex-wrap: wrap;
+} */
