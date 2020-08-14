@@ -5,12 +5,14 @@ h1 {
 }
 
 img {
-  height: auto;
-  width: 7%;
+  /* height: ; */
+  width: 10%;
+  margin-left: 0.5rem;
 }
 
 section.dice-container {
-  display: flex;
+  display: grid;
+  justify-content: space-evenly;
 }
 
 body {
