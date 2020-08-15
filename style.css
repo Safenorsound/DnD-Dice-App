@@ -4,6 +4,7 @@ h1 {
   color: red;
   -webkit-text-stroke: 0.1rem black;
   background-color: yellow;
+  font-weight: bolder;
 }
 
 img {
@@ -11,6 +12,7 @@ img {
   margin-left: 0.5rem;
   vertical-align: super;
   border-radius: 50%;
+  outline-style: solid black;
 }
 
 button.btn-roll {
