@@ -1,12 +1,17 @@
+div.title {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
 h1 {
   font-size: 4rem;
   text-align: center;
   color: red;
-  -webkit-text-stroke: 0.1rem black;
+  -webkit-text-stroke: 0.2rem black;
   background-color: yellow;
-  font-weight: bolder;
   width: fit-content;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 img {
