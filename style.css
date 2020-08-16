@@ -7,8 +7,8 @@ div.title {
 h1 {
   font-size: 4rem;
   text-align: center;
-  color: red;
-  -webkit-text-stroke: 0.2rem black;
+  color: blue;
+  -webkit-text-stroke: 0.1rem black;
   width: fit-content;
   margin: 0 auto;
   background: -webkit-linear-gradient(yellow, red);
