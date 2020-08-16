@@ -26,6 +26,19 @@ button.btn-roll {
   vertical-align: baseline;
 }
 
+button:hover {
+  font-weight: 600;
+  font-size: large;
+  background: green;
+}
+button:hover i {
+  margin-right: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
 /* section.dice-container {
   display: flex;
 } */
