@@ -5,10 +5,12 @@ h1 {
   -webkit-text-stroke: 0.1rem black;
   background-color: yellow;
   font-weight: bolder;
+  width: fit-content;
+  justify-content: center;
 }
 
 img {
-  width: 10%;
+  width: 7%;
   margin-left: 0.5rem;
   vertical-align: super;
   border-radius: 50%;
