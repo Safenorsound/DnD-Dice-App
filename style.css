@@ -11,6 +11,7 @@ h1 {
   -webkit-text-stroke: 0.1rem black;
   width: fit-content;
   margin: 0 auto;
+  padding: 1rem;
   background: -webkit-linear-gradient(yellow, red);
 }
 
@@ -20,15 +21,18 @@ img {
   vertical-align: super;
   border-radius: 50%;
   outline-style: solid black;
+  filter: grayscale(50%);
 }
 
 button.btn-roll {
   vertical-align: baseline;
+  font-size: 2rem;
+  border-radius: 35%;
 }
 
 button:hover {
   font-weight: 600;
-  font-size: large;
+  font-size: 2rem;
   background: green;
 }
 button:hover i {
@@ -49,4 +53,13 @@ body {
 
 div.d {
   align-items: center;
+}
+
+.player-score {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 130px;
+  background-color: red;
 }
