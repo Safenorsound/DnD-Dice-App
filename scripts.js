@@ -6,7 +6,7 @@ document.querySelector('.d2-btn-roll').addEventListener('click', function () {
   // 1. Random dice rolls
   var d2 = Math.floor(Math.random() * 2) + 1;
   document.getElementById('d2').style.display = 'block';
-  document.getElementById('d2').src = 'd-';
+  document.getElementById('d2').src = 'd-' + d2;
 });
 
 //     document.querySelector('.btn-roll').addEventListener('click', function() {
