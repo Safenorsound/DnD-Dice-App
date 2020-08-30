@@ -6,7 +6,7 @@ var d2;
 d2 = Math.floor(Math.random() * 2) + 1;
 
 // document.querySelector('score-2').textContent = d2;
-// document.querySelector('#current-0').innerHTML = '<em>' + dice + '</em>';
+document.querySelector('#current-0').innerHTML = '<em>' + dice + '</em>';
 
 // document
 //   .querySelector('#d2-btn-roll')
