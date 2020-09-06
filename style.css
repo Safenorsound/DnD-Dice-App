@@ -24,6 +24,12 @@ img {
   filter: grayscale(50%);
 }
 
+.img-frame {
+  background: transparent;
+  padding: 8px;
+  border: 1px solid #999999;
+}
+
 button.btn-roll {
   vertical-align: baseline;
   font-size: 2rem;
